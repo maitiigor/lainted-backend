@@ -1,0 +1,11 @@
+<?php
+
+namespace App\Support\Enums;
+
+enum EscrowStatus: string
+{
+    case Held = 'held';
+    case Released = 'released';
+    case Refunded = 'refunded';
+    case Disputed = 'disputed';
+}
